@@ -1,0 +1,16 @@
+/// InfoPlist.strings  (Japanese)
+
+/* アプリ表示名 ─ ホーム画面アイコン下など */
+"CFBundleDisplayName" = "授乳タイマー";
+
+/* 内部用バンドル名 ─ Spotlight 等 */
+"CFBundleName" = "授乳タイマー";
+
+/* マイク権限ダイアログ */
+"NSMicrophoneUsageDescription"        = "音声コントロール機能を利用するためにマイクへのアクセスを許可してください。";
+
+/* 音声認識権限ダイアログ（iOS 17 以降のオフライン音声認識を利用する場合） */
+"NSSpeechRecognitionUsageDescription" = "音声コマンドを解析するために音声認識を使用します。";
+
+/* 通知権限ダイアログ（授乳リマインダー通知用） */
+"NSUserNotificationUsageDescription"  = "授乳時間をお知らせする通知を送信します。";

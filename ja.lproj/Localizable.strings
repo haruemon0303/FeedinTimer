@@ -1,0 +1,55 @@
+/// Localizable.strings  (Japanese)
+
+/* --- 共通ボタン --- */
+"ok_button"              = "OK";
+"cancel_button"          = "キャンセル";
+"save_button"            = "保存";
+"delete_button"          = "削除";
+
+/* --- タイトル & 画面名 --- */
+"app_title"              = "授乳タイマー";
+"history_screen_title"   = "授乳履歴";
+"settings_screen_title"  = "設定";
+
+/* --- タイマー操作 --- */
+"start_timer"            = "スタート";
+"stop_timer"             = "ストップ";
+"pause_timer"            = "一時停止";
+"resume_timer"           = "再開";
+"reset_timer"            = "リセット";
+
+/* --- サイド／胸選択 --- */
+"left_side"              = "左";
+"right_side"             = "右";
+
+/* --- ラベル・メッセージ --- */
+"elapsed_time_label"     = "経過時間";
+"current_side_label"     = "現在:";
+"last_feed_label"        = "前回の授乳";
+"total_sessions_label"   = "合計回数";
+"minutes_unit"           = "%d 分";
+
+/* --- 通知・リマインダー --- */
+"reminder_interval"      = "リマインダー間隔";
+"notification_title"     = "授乳の時間です";
+"notification_body"      = "赤ちゃんに授乳しましょう。";
+
+/* --- 音声コマンド --- */
+"voice_mode"             = "音声モード";
+"tap_to_speak"           = "話しかけてください…";
+"voice_help"             = "「スタート」「ストップ」などと話しかけて操作できます";
+
+/* --- エラーメッセージ --- */
+"error_microphone_denied" = "マイクへのアクセスが拒否されました。設定 › プライバシー › マイク で許可してください。";
+"error_unknown"           = "不明なエラーが発生しました。";
+
+/* --- 確認ダイアログ --- */
+"confirm_delete_history_title"   = "履歴を削除";
+"confirm_delete_history_message" = "すべての授乳履歴を削除してもよろしいですか？";
+"yes_button"                     = "はい";
+"no_button"                      = "いいえ";
+
+/* --- テーマ切替 --- */
+"theme_setting"         = "テーマ";
+"theme_light"           = "ライト";
+"theme_dark"            = "ダーク";
