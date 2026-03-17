@@ -389,7 +389,10 @@ struct ContentView: View {
                 if result.isFinal {
                     audioEngine.stop()
                     inputNode.removeTap(onBus: 0)
-                    isListening = false
+                    // 認識セッション終了後、自動で再開
+                    DispatchQueue.main.async {
+                        runRecognition()
+                    }
                 }
             } else if let error = error {
                 print("音声認識エラー: \(error.localizedDescription)")
